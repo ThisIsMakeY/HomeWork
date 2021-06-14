@@ -1,0 +1,40 @@
+/* -------Задание №1------- */
+
+.title {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    padding: 5px 10px 15px 15px;
+    margin: 10px 15px;
+    border: 5px green;
+    border-style: solid dotted;
+}
+
+/* -------Задание №2------- */
+
+.sub__title {
+    text-align: justify;
+    width: 40%;
+    padding: 0 15px;
+}
+
+.sub__title::after {
+    content: ""; 
+    display: table; 
+    clear: both; 
+}
+
+img {
+    width: 200px;
+}
+
+.img1 {
+    float: left;
+    margin: 0 15px 10px 0;
+}
+
+p img {
+    float: right;
+    padding: 15px 0 10px 10px;
+}
+
