@@ -38,3 +38,7 @@ p img {
     padding: 15px 0 10px 10px;
 }
 
+.new__block {
+    color: red;
+    width: 100%;
+}
